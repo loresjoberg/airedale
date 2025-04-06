@@ -1,0 +1,9 @@
+# Timber Core
+/src        @gchtr @jarednova @nlemoine
+
+# Documentation
+/docs       @gchtr
+.md         @gchtr
+
+# Tooling
+*.yml       @jarednova @nlemoine
