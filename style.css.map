@@ -1,0 +1,1 @@
+{"version":3,"sources":["css/theme.css"],"names":[],"mappings":"AAAA;;;;CAIC;AACD,qBAAqB","file":"style.css","sourcesContent":["/*\n * Theme Name: Airedale\n * Description: A theme for authors, philosophers, and bloggers.\n * Author: Lore Sjoberg (lore@loresjoberg.com)\n*/\n@import \"tailwindcss\";\n"]}
