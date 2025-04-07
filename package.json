@@ -1,11 +1,14 @@
 {
   "scripts": {
-    "build": "postcss --use autoprefixer -o style.css css/*.css\n"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.2.5"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.3",
-    "postcss": "^8.5.3",
-    "postcss-cli": "^11.0.1",
+    "@tailwindcss/vite": "^4.1.3",
     "tailwindcss": "^4.1.3"
   }
 }
