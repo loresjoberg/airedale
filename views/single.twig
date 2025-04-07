@@ -2,9 +2,6 @@
 
 {% block content %}
 	<div class="content-wrapper">
-        <h1 class="text-3xl font-bold underline">
-            Yo
-        </h1>
 		<article class="post-type-{{ post.post_type }}" id="post-{{ post.ID }}">
 			<img alt="" src="{{ post.thumbnail.src|resize(1200, 300) }}">
 			<section class="article-content">
