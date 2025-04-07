@@ -1,26 +1,11 @@
 {
-  "name": "airedale",
-  "version": "1.0.0",
-  "description": "Airedale ========",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs",
-    "test": "tests"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "postcss --use autoprefixer -o style.css css/*.css\n"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/loresjoberg/airedale.git"
-  },
-  "author": "Lore Sjoberg",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/loresjoberg/airedale/issues"
-  },
-  "homepage": "https://github.com/loresjoberg/airedale#readme",
-  "devDependencies": {
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.3",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
     "tailwindcss": "^4.1.3"
   }
 }
