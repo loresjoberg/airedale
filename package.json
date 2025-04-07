@@ -1,0 +1,26 @@
+{
+  "name": "airedale",
+  "version": "1.0.0",
+  "description": "Airedale ========",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loresjoberg/airedale.git"
+  },
+  "author": "Lore Sjoberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loresjoberg/airedale/issues"
+  },
+  "homepage": "https://github.com/loresjoberg/airedale#readme",
+  "devDependencies": {
+    "tailwindcss": "^4.1.3"
+  }
+}
