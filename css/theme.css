@@ -4,3 +4,112 @@
  * Author: Lore Sjoberg (lore@loresjoberg.com)
 */
 @import "tailwindcss";
+
+@font-face {
+    font-family: "Acumin Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("/wp-content/themes/airedale/fonts/AcuminProAcumin-RPro.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Acumin Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url("/wp-content/themes/airedale/fonts/AcuminProAcumin-BdPro.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Acumin Pro";
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url("/wp-content/themes/airedale/fonts/AcuminProAcumin-ItPro.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Acumin Pro";
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap;
+    src: url("/wp-content/themes/airedale/fonts/AcuminProAcumin-BdItPro.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Acumin Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("/wp-content/themes/airedale/fonts/AcuminProAcumin-RPro.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Acumin Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url("/wp-content/themes/airedale/fonts/AcuminProAcumin-BdPro.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Acumin Pro";
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url("/wp-content/themes/airedale/fonts/AcuminProAcumin-ItPro.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Acumin Pro";
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap;
+    src: url("/wp-content/themes/airedale/fonts/AcuminProAcumin-BdItPro.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Acumin Pro Condensed";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("/wp-content/themes/airedale/fonts/AcuminPro/AcuminProCond-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Acumin Pro Condensed";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("/wp-content/themes/airedale/fonts/AcuminPro/AcuminProCond-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Acumin Pro Condensed";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("/wp-content/themes/airedale/fonts/AcuminPro/AcuminProCond-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Acumin Pro Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/wp-content/themes/airedale/fonts/AcuminPro/AcuminProCond-Bold.woff2") format("woff2");
+}
+
+@theme {
+    --font-sans: "Acumin Pro Condensed", sans-serif;
+    --font-serif: "Cormorant Garamond" serif;
+    --font-mono: "American Typewriter", monospace;
+    --default-font-family: var(--font-serif);
+    --font-body: var(--font-serif);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-sans), sans-serif;
+    font-weight: bold;
+}
